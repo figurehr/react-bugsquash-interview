@@ -19,6 +19,9 @@ $ yarn install
 $ yarn start
 ```
 
+## Bug description
+Pasting appears to always paste from the "start" selection cell and go downwards, so if a user copies 2 cells, selects 2 cells to paste into from the bottom up, and then pastes, the cells paste from the bottom most cell of the selection and go downward. This seems counter intuitive.
+
 ## Installation
 
 Install from npm:
